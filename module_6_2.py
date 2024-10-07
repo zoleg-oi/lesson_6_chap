@@ -21,11 +21,7 @@ class Vehicle:
     __engine_power = 0
     __color = ''
     __COLOR_VARIANTS = ['красный', 'синий', 'белый', 'зеленЫй', 'черный']
-
-    def set_value(self, value):
-
-        pass
-
+   
     def get_model(self):
         print(f'Модель: {self.__model}')
 
